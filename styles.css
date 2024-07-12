@@ -1,0 +1,149 @@
+body {
+  background-image: url("7f577de8c63044d8a2d61ea173d17b36.jpg");
+  font-family: Arial, sans-serif;
+  background-size: cover; /* Ensures the background image covers the entire screen */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+main {
+  padding: 30px;
+}
+
+.registration-form {
+  background-color: #ffffff;
+  opacity: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Restrict maximum width */
+  margin: 0 auto; /* Center the form */
+}
+
+.registration-form h3 {
+  margin-bottom: 30px;
+  color: #007bff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; /* Use font-weight for bold text */
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"],
+.registration-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+ .registration-form input[type="file"]{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+ }
+
+.registration-form input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+@keyframes moveBanner {
+  from {
+    right: -100%; /* Start position: completely off-screen on the right */
+  }
+  to {
+    right: 100%; /* End position: fully visible on the left */
+  }
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.social-media img {
+  height: 30px;
+  margin: 0 0px;
+}
+
+.button {
+  background-color: #f7f8f9;
+  color: #0338f9;
+  font-size: medium;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+  }
+
+  .registration-form {
+    padding: 15px;
+  }
+
+  .registration-form h3 {
+    font-size: 18px;
+  }
+
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="tel"],
+  .registration-form select {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+ .registration-form input[type="file"]{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+ }
+  .registration-form input[type="submit"] {
+    padding: 8px 15px;
+  }
+
+  .banner {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+
+  footer, header {
+    padding: 10px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+}
